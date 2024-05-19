@@ -1,0 +1,14 @@
+name: first-git-action
+on:
+ workflow_dispatch:
+ jobs:
+  first-build:
+   runs-on: ubuntu-latest
+   steps:
+    - name: welcome
+     run: echo "Hello, this is my github pilot test"
+    - name: Thankyou
+     run: echo "thank you for support"
+    
+   
+ 
